@@ -671,6 +671,24 @@
         }
     },
     {
+        "id": "loom",
+        "name": "Loom",
+        "symbol": "LOOM",
+        "decimals": 6,
+        "blockchain": "Loom",
+        "derivationPath": "m/44'/118'/0'/0/0",
+        "curve": "secp256k1",
+        "publicKeyType": "secp256k1",
+        "hrp": "loom",
+        "explorer": "https://loomx.io/txs/",
+        "info": {
+            "url": "https://loomx.io",
+            "client": "https://github.com/loomnetwork/loomchain",
+            "clientPublic": "https://loomx.io",
+            "clientDocs": "https://loomx.io"
+        }
+    },
+    {
         "id": "neo",
         "name": "NEO",
         "symbol": "NEO",

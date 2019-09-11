@@ -1,0 +1,64 @@
+// Copyright © 2017-2019 Trust Wallet.
+//
+// This file is part of Trust. The full Trust copyright notice, including
+// terms governing use, modification, and redistribution, is contained in the
+// file LICENSE at the root of the source code distribution tree.
+
+#include "Signer.h"
+
+#include "../PrivateKey.h"
+#include "TWCurve.h"
+
+using namespace TW;
+using namespace TW::Loom;
+
+Proto::SigningOutput Signer::sign(const Proto::SigningInput &input) const noexcept {
+    auto preTxBytes = buildTransaction(input);
+    auto key = PrivateKey(input.private_key());
+    auto hash = Hash::sha256(preTxBytes);
+    auto signature = key.sign(hash, TWCurveED25519);
+    return std::vector<uint8_t>(signature.begin(), signature.end() - 1);
+}
+
+Data Signer::buildTransaction(const Proto::SigningInput &input) const noexcept {
+    std::string data;
+    if (Proto::TXType::DEPLOY == input.id()) {
+        auto callTx = Proto::CallTx();
+        callTx.set_vm_type(input.vm_type());
+        auto value = input.value();
+        callTx.set_allocated_value(&value);
+        callTx.set_input(input.payload());
+        callTx.SerializeToString(&data);
+    } else {
+        auto deployTx = Proto::DeployTx();
+        deployTx.set_vm_type(input.vm_type());
+        auto value = input.value();
+        deployTx.set_allocated_value(&value);
+        deployTx.set_code(input.payload());
+        deployTx.SerializeToString(&data);
+    }
+
+    auto messageTx = Proto::MessageTx();
+    messageTx.set_data(data);
+    auto to = input.to();
+    messageTx.set_allocated_to(&to);
+    auto from = input.to();
+    messageTx.set_allocated_from(&from);
+    std::string message;
+    messageTx.SerializeToString(&message);
+
+    auto transactionTx = Proto::Transaction();
+    transactionTx.set_id(input.id());
+    transactionTx.set_data(message);
+    std::string transaction;
+    transactionTx.SerializeToString(&transaction);
+
+    auto nonceTx = Proto::NonceTx();
+    nonceTx.set_inner(transaction);
+    nonceTx.set_sequence(input.sequence());
+    std::string nonce;
+    nonceTx.SerializeToString(&nonce);
+
+
+
+}

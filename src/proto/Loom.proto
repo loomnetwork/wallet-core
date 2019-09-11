@@ -1,0 +1,82 @@
+syntax = "proto3";
+
+package TW.Loom.Proto;
+option java_package = "wallet.core.jni.proto";
+
+enum VMType {
+    PLUGIN = 0;
+    EVM = 1;
+}
+
+enum TXType {
+    CALL = 0;
+    DEPLOY = 1;
+}
+
+message BigUInt {
+    bytes value = 1;
+}
+
+message Address {
+    string chain_id = 1;
+    bytes local = 2;
+}
+
+// Input data necessary to create a signed order.
+message SigningInput {
+    bytes private_key = 1;
+    uint64 sequence = 2;
+    TXType id = 3;
+    Address to = 4;
+    Address from = 5;
+    VMType vm_type = 6;
+    bytes payload = 7;
+    BigUInt value = 8;
+}
+
+// Transaction signing output.
+message SigningOutput {
+    bytes encoded = 1;
+}
+
+message SignedTx {
+    bytes inner = 1;
+    bytes signature = 2;
+    bytes public_key = 3;
+}
+
+message NonceTx {
+    bytes inner = 1;
+    uint64 sequence = 2;
+}
+
+message Transaction {
+    uint32 id = 1;
+    bytes data = 2;
+}
+
+message MessageTx {
+    Address to = 1;
+    Address from = 2;
+    bytes data = 3;
+}
+
+message DeployTx {
+    VMType vm_type = 1;
+    bytes code = 2;
+    string name = 3;
+    BigUInt value = 4;
+    string contract_version = 5;
+}
+
+message CallTx {
+    VMType vm_type = 1;
+    bytes input = 2;
+    BigUInt value = 3;
+    string contract_version = 4;
+}
+
+message MigrationTx {
+    uint32 id = 1;
+    bytes input = 2;
+}
