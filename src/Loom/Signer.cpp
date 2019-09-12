@@ -13,14 +13,27 @@ using namespace TW;
 using namespace TW::Loom;
 
 Proto::SigningOutput Signer::sign(const Proto::SigningInput &input) const noexcept {
-    auto preTxBytes = buildTransaction(input);
+    auto signedTx = buildTransaction(input);
+
     auto key = PrivateKey(input.private_key());
-    auto hash = Hash::sha256(preTxBytes);
+    auto privateKey = PublicKey(input.private_key(), TWPublicKeyTypeED25519);
+
+    auto hash = Hash::sha256(signedTx.inner());
     auto signature = key.sign(hash, TWCurveED25519);
-    return std::vector<uint8_t>(signature.begin(), signature.end() - 1);
+    signedTx.set_signature(signature);
+
+    const auto pubKey = key.getPublicKey(TWPublicKeyTypeSECP256k1);
+    signedTx.set_public_key(pubKey);
+
+    std::string signedBytes;
+    signedTx.SerializeToString(&signedBytes);
+
+    auto output = Proto::SigningOutput();
+    output.set_encoded(signedBytes);
+    return output;
 }
 
-Data Signer::buildTransaction(const Proto::SigningInput &input) const noexcept {
+Proto::SignedTx Signer::buildTransaction(const Proto::SigningInput &input) const noexcept {
     std::string data;
     if (Proto::TXType::DEPLOY == input.id()) {
         auto callTx = Proto::CallTx();
@@ -59,6 +72,8 @@ Data Signer::buildTransaction(const Proto::SigningInput &input) const noexcept {
     std::string nonce;
     nonceTx.SerializeToString(&nonce);
 
+    auto signedTx = Proto::SignedTx();
+    signedTx.set_inner(nonce);
 
-
+    return signedTx;
 }

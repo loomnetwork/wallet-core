@@ -16,6 +16,7 @@
 #include "Groestlcoin/Address.h"
 #include "IOST/Account.h"
 #include "Icon/Address.h"
+#include "Loom/Address.h"
 #include "Nano/Address.h"
 #include "NEO/Address.h"
 #include "Nimiq/Address.h"
@@ -105,7 +106,8 @@ bool TW::validateAddress(TWCoinType coin, const std::string& string) {
     case TWCoinTypeTheta:
     case TWCoinTypeDEXON:
         return Ethereum::Address::isValid(string);
-
+    case TWCoinTypeLoom:
+        return Loom::Address::isValid(string);
     case TWCoinTypeEOS:
         return EOS::Address::isValid(string);
     case TWCoinTypeFIO:
@@ -228,10 +230,12 @@ std::string TW::deriveAddress(TWCoinType coin, const PublicKey& publicKey) {
     case TWCoinTypeTheta:
     case TWCoinTypeDEXON:
         return Ethereum::Address(publicKey).string();
-
+    case TWCoinTypeLoom:
+        return Loom::Address(publicKey).string()
     case TWCoinTypeEOS:
         return EOS::Address(publicKey).string();
-
+    case TWCoinTypeLoom:
+        return Loom::Address(publicKey).string();
     case TWCoinTypeFIO:
         return FIO::Address(publicKey).string();
 

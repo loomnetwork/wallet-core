@@ -20,7 +20,7 @@ public:
     /// Signs a Proto::SigningInput transaction
     Proto::SigningOutput sign(const Proto::SigningInput& input) const noexcept;
 private:
-    Data buildTransaction(const TW::Loom::Proto::SigningInput &input) const noexcept;
+    Proto::SignedTx buildTransaction(const Proto::SigningInput &input) const noexcept;
 
 };
 

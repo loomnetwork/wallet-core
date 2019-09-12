@@ -50,6 +50,11 @@ TEST(Coin, ValidateAddressLitecoin) {
     EXPECT_FALSE(validateAddress(TWCoinTypeLitecoin, "1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2"));
 }
 
+TEST(Coin, ValidateAddressLoom) {
+    EXPECT_TRUE(validateAddress(TWCoinTypeLoom, "0xeDe8F58dADa22c3A49dB60D4f82BAD428ab65F89"));
+    EXPECT_FALSE(validateAddress(TWCoinTypeLoom, "ede8f58dada22a49db60d4f82bad428ab65f89"));
+}
+
 TEST(Coin, ValidateAddressViacoin) {
     EXPECT_TRUE(validateAddress(TWCoinTypeViacoin, "via1qhkfq3zahaqkkzx5mjnamwjsfpq2jk7z09y9mn2"));
     EXPECT_TRUE(validateAddress(TWCoinTypeViacoin, "Vw6bJFaF5Hyiveko7dpqRjVvcTAsjz7eYa"));
