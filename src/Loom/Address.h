@@ -5,6 +5,9 @@
 // file LICENSE at the root of the source code distribution tree.
 
 #pragma once
+
+#include "../PublicKey.h"
+
 #include <string>
 
 namespace TW::Loom {
@@ -15,7 +18,7 @@ public:
     static const size_t size = 20;
 
     // loom address prefix
-    static const prefix = "loom"
+    const std::string prefix = "loom";
 
     /// Address data consisting of a prefix byte followed by the public key
     /// hash.
