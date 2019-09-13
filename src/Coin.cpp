@@ -231,11 +231,9 @@ std::string TW::deriveAddress(TWCoinType coin, const PublicKey& publicKey) {
     case TWCoinTypeDEXON:
         return Ethereum::Address(publicKey).string();
     case TWCoinTypeLoom:
-        return Loom::Address(publicKey).string()
+        return Loom::Address(publicKey).string();
     case TWCoinTypeEOS:
         return EOS::Address(publicKey).string();
-    case TWCoinTypeLoom:
-        return Loom::Address(publicKey).string();
     case TWCoinTypeFIO:
         return FIO::Address(publicKey).string();
 

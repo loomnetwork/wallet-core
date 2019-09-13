@@ -5,9 +5,8 @@
 // file LICENSE at the root of the source code distribution tree.
 
 #include "Signer.h"
-
 #include "../PrivateKey.h"
-#include "TWCurve.h"
+#include <TrustWalletCore/TWCurve.h>
 
 using namespace TW;
 using namespace TW::Loom;

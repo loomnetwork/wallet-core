@@ -6,7 +6,8 @@
 // file LICENSE at the root of the source code distribution tree.
 
 #include "Address.h"
-
+#include "../Hash.h"
+#include "../HexCoding.h"
 #include "../Bech32.h"
 
 #include <TrezorCrypto/ecdsa.h>
@@ -46,11 +47,11 @@ Address::Address(const PublicKey& publicKey) {
 }
 
 std::string Address::string() const {
-    const auto addressString = hex(address.bytes);
+    const auto addressString = hex(this->bytes);
 
     std::string rtString = "loom";
     for (auto i = 0 ; i < addressString.size() ; i += 1) {
-        rtString.push_back(static_cast<char>(tolower(addressString[i])))
+        rtString.push_back(static_cast<char>(tolower(addressString[i])));
     }
     return rtString;
 }
