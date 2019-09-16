@@ -10,9 +10,6 @@
 #include "../HexCoding.h"
 #include "../Bech32.h"
 
-#include <TrezorCrypto/ecdsa.h>
-#include <TrustWalletCore/TWHRP.h>
-
 using namespace TW::Loom;
 
 bool Address::isValid(const std::string& string) {
@@ -20,7 +17,7 @@ bool Address::isValid(const std::string& string) {
         return false;
     }
     const auto data = parse_hex(string);
-    return Address::isValid(data);
+    return data.size() == size;
 }
 
 Address::Address(const std::string& string) {
@@ -28,13 +25,6 @@ Address::Address(const std::string& string) {
         throw std::invalid_argument("Invalid address data");
     }
     const auto data = parse_hex(string);
-    std::copy(data.begin(), data.end(), bytes.begin());
-}
-
-Address::Address(const Data& data) {
-    if (!isValid(data)) {
-        throw std::invalid_argument("Invalid address data");
-    }
     std::copy(data.begin(), data.end(), bytes.begin());
 }
 
@@ -49,8 +39,8 @@ Address::Address(const PublicKey& publicKey) {
 std::string Address::string() const {
     const auto addressString = hex(this->bytes);
 
-    std::string rtString = "loom";
-    for (auto i = 0 ; i < addressString.size() ; i += 1) {
+    std::string rtString = prefix;
+    for (size_t i = 0 ; i < addressString.size() ; i += 1) {
         rtString.push_back(static_cast<char>(tolower(addressString[i])));
     }
     return rtString;

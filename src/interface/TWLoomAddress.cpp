@@ -4,7 +4,7 @@
 // terms governing use, modification, and redistribution, is contained in the
 // file LICENSE at the root of the source code distribution tree.
 
-#include <TrustWalletCore/TWEthereumAddress.h>
+#include <TrustWalletCore/TWLoomAddress.h>
 
 #include "../Data.h"
 #include "../Loom/Address.h"
@@ -19,8 +19,8 @@
 using namespace TW;
 using namespace TW::Loom;
 
-bool TWLoomAddressEqual(struct TWEthereumAddress *_Nonnull lhs, struct TWEthereumAddress *_Nonnull rhs) {
-    return lhs->impl == rhs->impl;
+bool TWLoomAddressEqual(struct TWLoomAddress *_Nonnull lhs, struct TWLoomAddress *_Nonnull rhs) {
+    return  true;//lhs->impl == rhs->impl;
 }
 
 bool TWLoomAddressIsValidString(TWString *_Nonnull string) {
@@ -29,19 +29,19 @@ bool TWLoomAddressIsValidString(TWString *_Nonnull string) {
 }
 
 struct TWLoomAddress *_Nullable TWLoomAddressCreateWithString(TWString *_Nonnull string) {
-auto s = reinterpret_cast<const std::string*>(string);
-if (!Address::isValid(*s)) {
-return nullptr;
-}
-return new TWEthereumAddress{ Address(*s) };
+    auto s = reinterpret_cast<const std::string*>(string);
+    if (!Address::isValid(*s)) {
+        return nullptr;
+    }
+    return new TWLoomAddress{ Address(*s) };
 }
 
 struct TWLoomAddress *_Nullable TWLoommAddressCreateWithKeyHash(TWData *_Nonnull keyHash) {
-auto d = reinterpret_cast<const Data*>(keyHash);
-if (!Address::isValid(*d)) {
-return nullptr;
-}
-return new TWEthereumAddress{ Address(*d) };
+    auto d = reinterpret_cast<const Data*>(keyHash);
+    if (!Address::isValid(*d)) {
+        return nullptr;
+    }
+    return new TWLoomAddress{ Address(*d) };
 }
 
 struct TWLoomAddress *_Nonnull TWLoomAddressCreateWithPublicKey(struct TWPublicKey *_Nonnull publicKey) {

@@ -5,6 +5,7 @@
 // file LICENSE at the root of the source code distribution tree.
 
 #include "Signer.h"
+#include "../proto/Loom.pb.h"
 #include "../PrivateKey.h"
 #include <TrustWalletCore/TWCurve.h>
 
@@ -14,14 +15,15 @@ using namespace TW::Loom;
 Proto::SigningOutput Signer::sign(const Proto::SigningInput &input) const noexcept {
     auto signedTx = buildTransaction(input);
 
-    auto key = PrivateKey(input.private_key());
-    auto privateKey = PublicKey(input.private_key(), TWPublicKeyTypeED25519);
+    auto privateKey = PrivateKey(input.private_key());
+    //auto privateKey = PublicKey(input.private_key(), TWPublicKeyTypeED25519);
 
     auto hash = Hash::sha256(signedTx.inner());
-    auto signature = key.sign(hash, TWCurveED25519);
+    auto signature = privateKey.sign(hash, TWCurveED25519);
     signedTx.set_signature(signature);
 
-    const auto pubKey = key.getPublicKey(TWPublicKeyTypeSECP256k1);
+    const auto pubKey = privateKey.getPublicKey(TWPublicKeyTypeSECP256k1);
+    //const auto pubKey = privateKey.getPublicKey(TWPublicKeyTypeED25519);
     signedTx.set_public_key(pubKey);
 
     std::string signedBytes;

@@ -26,7 +26,7 @@ TEST(LoomSigner, SignTx) {
     input.set_payload("");
     input.set_vm_type(Proto::VMType::EVM);
     input.set_sequence(1);
-    input.set_private_key("");
+    input.set_private_key("80e81ea269e66a0a05b11236df7919fb7fbeedba87452d667489d7403a02f005");
 
     auto from = Proto::Address();
     from.set_chain_id("loom");
