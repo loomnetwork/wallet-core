@@ -5,6 +5,7 @@
 // file LICENSE at the root of the source code distribution tree.
 
 #include <TrustWalletCore/TWLoomSigner.h>
+#include <TrustWalletCore/TWLoomProto.h>
 
 #include "../Loom/Signer.h"
 #include "../proto/Loom.pb.h"

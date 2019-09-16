@@ -27,13 +27,9 @@ bool TWLoomAddressEqual(struct TWLoomAddress *_Nonnull lhs, struct TWLoomAddress
 TW_EXPORT_STATIC_METHOD
 bool TWLoomAddressIsValidString(TWString *_Nonnull string);
 
-/// Creates an address from a string representaion.
+/// Creates an address from a string representation.
 TW_EXPORT_STATIC_METHOD
 struct TWLoomAddress *_Nullable TWLoomAddressCreateWithString(TWString *_Nonnull string);
-
-/// Creates an address from a key hash.
-TW_EXPORT_STATIC_METHOD
-struct TWLoomAddress *_Nullable TWLoomAddressCreateWithKeyHash(enum TWHRP hrp, TWData *_Nonnull keyHash);
 
 /// Creates an address from a public key.
 TW_EXPORT_STATIC_METHOD
@@ -45,13 +41,5 @@ void TWLoomAddressDelete(struct TWLoomAddress *_Nonnull address);
 /// Returns the address string representation.
 TW_EXPORT_PROPERTY
 TWString *_Nonnull TWLoomAddressDescription(struct TWLoomAddress *_Nonnull address);
-
-/// Wheter this is a test net address.
-TW_EXPORT_PROPERTY
-enum TWHRP TWLoomAddressHRP(struct TWLoomAddress *_Nonnull address);
-
-/// Returns the key hash.
-TW_EXPORT_PROPERTY
-TWData *_Nonnull TWLoomAddressKeyHash(struct TWLoomAddress *_Nonnull address);
 
 TW_EXTERN_C_END
