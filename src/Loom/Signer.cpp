@@ -19,12 +19,12 @@ Proto::SigningOutput Signer::sign(const Proto::SigningInput &input) const noexce
     //auto privateKey = PublicKey(input.private_key(), TWPublicKeyTypeED25519);
 
     auto hash = Hash::sha256(signedTx.inner());
+
     auto signature = privateKey.sign(hash, TWCurveED25519);
-    signedTx.set_signature(signature);
+    signedTx.set_signature(signature.data(), signature.size());
 
     const auto pubKey = privateKey.getPublicKey(TWPublicKeyTypeSECP256k1);
-    //const auto pubKey = privateKey.getPublicKey(TWPublicKeyTypeED25519);
-    signedTx.set_public_key(pubKey);
+    signedTx.set_public_key(pubKey.data(), pubKey.size());
 
     std::string signedBytes;
     signedTx.SerializeToString(&signedBytes);
