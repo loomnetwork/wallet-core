@@ -24,7 +24,7 @@ Proto::SigningOutput Signer::sign(const Proto::SigningInput &input) const noexce
     signedTx.set_signature(signature.data(), signature.size());
 
     const auto pubKey = privateKey.getPublicKey(TWPublicKeyTypeSECP256k1);
-    signedTx.set_public_key(pubKey.data(), pubKey.size());
+    signedTx.set_public_key(pubKey.Data.data(), pubKey.Data.size());
 
     std::string signedBytes;
     signedTx.SerializeToString(&signedBytes);
