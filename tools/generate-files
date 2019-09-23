@@ -47,10 +47,11 @@ popd
 
 # Generate Xcode project
 if [ -x "$(command -v xcodegen)" ]; then
-    pushd swift
-    xcodegen
-    pod install
-    popd
+#    pushd swift
+#    xcodegen
+#    pod install
+#    popd
+	echo "piers snip xcode generation"
 else
     echo -e "\nWARNING: Skipped generating Xcode project because the xcodegen tool is not installed."
 fi

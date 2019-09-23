@@ -13,7 +13,7 @@
 using namespace TW::Loom;
 
 bool Address::isValid(const std::string& string) {
-    if (string.size() != 42+4 || string[0] != '0' || string[1] != 'x') {
+    if (string.size() != 42 || string[0] != '0' || string[1] != 'x') {
         return false;
     }
     const auto data = parse_hex(string);

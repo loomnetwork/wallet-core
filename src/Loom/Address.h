@@ -18,7 +18,7 @@ public:
     static const size_t size = 20;
 
     /// loom address prefix
-    const std::string prefix = "loom";
+    const std::string prefix = "loom:0x";
 
     /// Address data consisting of a prefix byte followed by the public key
     /// hash.
