@@ -27,7 +27,6 @@ TEST(LoomSigner, SignTx) {
     auto input = Proto::SigningInput();
     input.set_id(Proto::TXType::CALL);
     input.set_payload(payload);
-std::cout << "hhhhhhhhhhhinput.payload() "  << (input.payload())<< "\n";
     input.set_vm_type(Proto::VMType::EVM);
     input.set_sequence(1);
     auto privateKey = parse_hex("80e81ea269e66a0a05b11236df7919fb7fbeedba87452d667489d7403a02f005");

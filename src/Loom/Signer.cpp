@@ -17,14 +17,10 @@ using namespace TW::Loom;
 Proto::SigningOutput Signer::sign(const Proto::SigningInput &input) const noexcept {
     auto signedTx = buildTransaction(input);
     auto privateKey = PrivateKey(input.private_key());
-    std::cout << "signedTx.inner() " << hex(signedTx.inner()) << "\n";
     auto hash = Hash::sha256(signedTx.inner());
-    std::cout << "Hash::sha256(signedTx.inner()) " << hex(hash) << "\n";
     auto signature = privateKey.sign(hash, TWCurveSECP256k1);
-    std::cout << "signature " << hex(signature) << "\n";
     signedTx.set_signature(signature.data(), signature.size());
     const auto pubKey = privateKey.getPublicKey(TWPublicKeyTypeSECP256k1);
-
     signedTx.set_public_key(pubKey.bytes.data(), pubKey.bytes.size());
     auto signedBytes = signedTx.SerializeAsString();
 
@@ -38,13 +34,10 @@ Proto::SignedTx Signer::buildTransaction(const Proto::SigningInput &input) const
     if (Proto::TXType::CALL == input.id()) {
         auto callTx = Proto::CallTx();
         callTx.set_vm_type(input.vm_type());
-        //auto value = input.value();
-        //callTx.set_allocated_value(&value);
+        auto value = input.value();
+        callTx.set_allocated_value(&value);
         callTx.set_input(input.payload().data(), input.payload().size());
-std::cout << "input.payload() " << (input.payload()) << "\n";
         auto data = callTx.SerializeAsString();
-        std::cout << "callTx.data() " << (data) << "\n" << "input " << (input.payload()) << "\n";
-         std::cout << "callTx.value() " << "vm_type " << (input.vm_type()) << "\n";
         messageTx.set_data(data.data(), data.size());
         callTx.release_value();
     } else {
@@ -62,7 +55,6 @@ std::cout << "input.payload() " << (input.payload()) << "\n";
     auto from = input.from();
     messageTx.set_allocated_from(&from);
     auto mesgData = messageTx.SerializeAsString();
-std::cout << "messageTx.data() " << (messageTx.data()) << "\n" << "messageTx.from " << (messageTx.from().local()) << "\n";
     messageTx.release_to();
     messageTx.release_from();
 
