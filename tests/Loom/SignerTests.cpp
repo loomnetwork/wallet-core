@@ -29,7 +29,8 @@ TEST(LoomSigner, SignTx) {
     input.set_payload("payload");
     input.set_vm_type(Proto::VMType::EVM);
     input.set_sequence(1);
-    input.set_private_key("80e81ea269e66a0a05b11236df7919fb7fbeedba87452d667489d7403a02f005");
+    auto privateKey = parse_hex("80e81ea269e66a0a05b11236df7919fb7fbeedba87452d667489d7403a02f005");
+    input.set_private_key(privateKey.data(), privateKey.size());
     auto from = Proto::Address();
     from.set_chain_id("loom");
     from.set_local(fromHex);
@@ -41,13 +42,13 @@ TEST(LoomSigner, SignTx) {
     input.set_allocated_to(&from);
     input.set_allocated_from(&to);
     input.set_allocated_value(&value);
-
     auto signer = Signer();
-    std::cout << "piers 6\n";
-
     auto output = signer.sign(input);
-     std::cout << "piers 7\n";
-    ASSERT_EQ(output.encoded(), txBytes);
+    input.release_value();
+    input.release_to();
+    input.release_from();
+
+    ASSERT_EQ(hex(output.encoded()), txBytes);
 }
 
 
