@@ -1,0 +1,1017 @@
+f#### Initializing... ####
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/piers/Documents/GitHub/wallet-core/build/gtest/staging/googletest-release-1.8.1
+[ 25%] Built target gtest
+[ 50%] Built target gmock
+[ 75%] Built target gmock_main
+[100%] Built target gtest_mainff
+[ 25%] Built target gtest
+[ 50%] Built target gmock
+[ 75%] Built target gmock_main
+[100%] Built target gtest_main
+Install the project...
+-- Install configuration: ""
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-generated-actions.h.pump
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-generated-function-mockers.h.pump
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-matchers.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-more-actions.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-generated-matchers.h.pump
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-generated-nice-strict.h.pump
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-generated-actions.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-generated-matchers.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-generated-nice-strict.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/internal
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/internal/gmock-port.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/internal/gmock-internal-utils.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/internal/gmock-generated-internal-utils.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/internal/gmock-generated-internal-utils.h.pump
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/internal/custom
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/internal/custom/gmock-generated-actions.h.pump
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/internal/custom/gmock-port.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/internal/custom/gmock-matchers.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/internal/custom/gmock-generated-actions.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/internal/custom/README.md
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-more-matchers.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-generated-function-mockers.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-cardinalities.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-spec-builders.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gmock/gmock-actions.h
+-- Installing: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libgmock.a
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libgmock_main.a
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/pkgconfig/gmock.pc
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/pkgconfig/gmock_main.pc
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/cmake/GTest/GTestTargets.cmake
+-- Installing: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/cmake/GTest/GTestTargets-noconfig.cmake
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/cmake/GTest/GTestConfigVersion.cmake
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/cmake/GTest/GTestConfig.cmake
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/gtest-death-test.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/gtest-spi.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-linked_ptr.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-string.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-tuple.h.pump
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-death-test-internal.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-type-util.h.pump
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-port.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-port-arch.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-internal.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-param-util-generated.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-param-util.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-type-util.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-filepath.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/custom
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/custom/gtest-port.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/custom/README.md
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/custom/gtest.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/custom/gtest-printers.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-tuple.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/internal/gtest-param-util-generated.h.pump
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/gtest-message.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/gtest-param-test.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/gtest-typed-test.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/gtest_pred_impl.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/gtest_prod.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/gtest-param-test.h.pump
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/gtest-test-part.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/gtest.h
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/include/gtest/gtest-printers.h
+-- Installing: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libgtest.a
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libgtest_main.a
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/pkgconfig/gtest.pc
+-- Up-to-date: /Users/piers/Documents/GitHub/wallet-core/build/local/lib/pkgconfig/gtest_main.pc
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether make supports nested variables... (cached) yes
+Subunit support will enable automatically.
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for gawk... (cached) awk
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking whether ln -s works... yes
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking build system type... x86_64-apple-darwin18.6.0
+checking host system type... x86_64-apple-darwin18.6.0
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 196608
+checking how to convert x86_64-apple-darwin18.6.0 file names to x86_64-apple-darwin18.6.0 format... func_convert_file_noop
+checking how to convert x86_64-apple-darwin18.6.0 file names to toolchain format... func_convert_file_noop
+checking for /Library/Developer/CommandLineTools/usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... no
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for lipo... lipo
+checking for otool... otool
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking for -force_load linker flag... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... yes
+checking for gcc option to produce PIC... -fno-common -DPIC
+checking if gcc PIC flag -fno-common -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin18.6.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether the C compiler accepts the -Wextra flag... yes
+checking whether the C compiler accepts the -Wstrict-prototypes flag... yes
+checking whether the C compiler accepts the -Wmissing-prototypes flag... yes
+checking whether the C compiler accepts the -Wwrite-strings flag... yes
+checking whether the C compiler accepts the -Wno-variadic-macros flag... yes
+checking whether the C compiler accepts the -Wimport flag... yes
+checking whether the C compiler accepts the -Wfatal-errors flag... yes
+checking whether the C compiler accepts the -Wformat=2 flag... yes
+checking whether the C compiler accepts the -Winit-self flag... yes
+checking whether the C compiler accepts the -Wmissing-include-dirs flag... yes
+checking whether the C compiler accepts the -Wswitch-default flag... yes
+checking whether the C compiler accepts the -Wunknown-pragmas flag... yes
+checking for gcov... gcov
+checking for lcov... no
+checking for genhtml... no
+checking for tex... no
+checking for filterdiff... no
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... -D_THREAD_SAFE
+checking for floor in -lm... yes
+checking for clock_gettime, timer_create, timer_settime, timer_delete in -lrt... no
+checking for struct timespec.tv_sec... yes
+checking for struct timespec.tv_nsec... yes
+checking for struct itimerspec.it_interval... no
+checking for struct itimerspec.it_value... no
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking for stdint types... stdint.h (shortcircuit)
+make use of stdint.h in check_stdint.h (assuming C99 compatible system)
+checking for pkg-config... /usr/local/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking regex.h usability... yes
+checking regex.h presence... yes
+checking for regex.h... yes
+checking for regcomp... yes
+checking for regexec... yes
+checking for an ANSI C-conforming const... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for unsigned long long int... yes
+checking for long long int... yes
+checking for intmax_t... yes
+checking for uintmax_t... yes
+checking for uint32_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking size of int... 4
+checking size of short... 2
+checking size of long... 8
+checking for clockid_t... yes
+checking for timer_t... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for time.h... yes
+checking for stdarg.h... yes
+checking for timer_create... no
+checking for alarm... yes
+checking for clock_gettime... yes
+checking for getline... yes
+checking for gettimeofday... yes
+checking for localtime_r... yes
+checking for strdup... yes
+checking for strsignal... yes
+checking whether alarm is declared... yes
+checking whether clock_gettime is declared... no
+checking whether getline is declared... yes
+checking whether gettimeofday is declared... no
+checking whether localtime_r is declared... no
+checking whether strdup is declared... yes
+checking whether strsignal is declared... yes
+checking whether setenv is declared... yes
+checking for setitimer... yes
+checking for fork... yes
+checking for sigaction... yes
+checking for mkstemp... yes
+checking for vsnprintf... yes
+checking whether vsnprintf is C99 compliant... yes
+checking for snprintf... yes
+checking whether snprintf is C99 compliant... yes
+checking for awk... /usr/bin/awk
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating checkmk/checkmk
+config.status: creating check.pc
+config.status: creating Makefile
+config.status: creating checkmk/Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Makefile
+config.status: creating src/check.h
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/test_vars
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing check_stdint.h commands
+config.status: creating check_stdint.h : _CHECK_CHECK_STDINT_H
+config.status: executing checkmk-x commands
+
+==========================================
+Summary of Check 0.12.0 options:
+
+fork mode ............................ yes
+high resolution timer replacement .... yes
+snprintf replacement ................. no
+subunit support....................... no
+timeout unit tests ................... yes
+POSIX regular expressions ............ yes
+==========================================
+/Library/Developer/CommandLineTools/usr/bin/make  all-recursive
+Making all in lib
+make[2]: Nothing to be done for `all'.
+Making all in src
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -D_THREAD_SAFE   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check.lo -MD -MP -MF .deps/check.Tpo -c -o check.lo check.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -D_THREAD_SAFE   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_log.lo -MD -MP -MF .deps/check_log.Tpo -c -o check_log.lo check_log.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -D_THREAD_SAFE   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_msg.lo -MD -MP -MF .deps/check_msg.Tpo -c -o check_msg.lo check_msg.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -D_THREAD_SAFE   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_pack.lo -MD -MP -MF .deps/check_pack.Tpo -c -o check_pack.lo check_pack.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check.lo -MD -MP -MF .deps/check.Tpo -c check.c  -fno-common -DPIC -o .libs/check.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_log.lo -MD -MP -MF .deps/check_log.Tpo -c check_log.c  -fno-common -DPIC -o .libs/check_log.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_pack.lo -MD -MP -MF .deps/check_pack.Tpo -c check_pack.c  -fno-common -DPIC -o .libs/check_pack.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_msg.lo -MD -MP -MF .deps/check_msg.Tpo -c check_msg.c  -fno-common -DPIC -o .libs/check_msg.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_msg.lo -MD -MP -MF .deps/check_msg.Tpo -c check_msg.c -o check_msg.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_log.lo -MD -MP -MF .deps/check_log.Tpo -c check_log.c -o check_log.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_pack.lo -MD -MP -MF .deps/check_pack.Tpo -c check_pack.c -o check_pack.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check.lo -MD -MP -MF .deps/check.Tpo -c check.c -o check.o >/dev/null 2>&1
+mv -f .deps/check_msg.Tpo .deps/check_msg.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -D_THREAD_SAFE   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_print.lo -MD -MP -MF .deps/check_print.Tpo -c -o check_print.lo check_print.c
+mv -f .deps/check_pack.Tpo .deps/check_pack.Plo
+mv -f .deps/check_log.Tpo .deps/check_log.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -D_THREAD_SAFE   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_run.lo -MD -MP -MF .deps/check_run.Tpo -c -o check_run.lo check_run.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -D_THREAD_SAFE   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_str.lo -MD -MP -MF .deps/check_str.Tpo -c -o check_str.lo check_str.c
+mv -f .deps/check.Tpo .deps/check.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_print.lo -MD -MP -MF .deps/check_print.Tpo -c check_print.c  -fno-common -DPIC -o .libs/check_print.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_run.lo -MD -MP -MF .deps/check_run.Tpo -c check_run.c  -fno-common -DPIC -o .libs/check_run.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_str.lo -MD -MP -MF .deps/check_str.Tpo -c check_str.c  -fno-common -DPIC -o .libs/check_str.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_print.lo -MD -MP -MF .deps/check_print.Tpo -c check_print.c -o check_print.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_str.lo -MD -MP -MF .deps/check_str.Tpo -c check_str.c -o check_str.o >/dev/null 2>&1
+mv -f .deps/check_print.Tpo .deps/check_print.Plo
+mv -f .deps/check_str.Tpo .deps/check_str.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_run.lo -MD -MP -MF .deps/check_run.Tpo -c check_run.c -o check_run.o >/dev/null 2>&1
+mv -f .deps/check_run.Tpo .deps/check_run.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -D_THREAD_SAFE   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -no-undefined -export-symbols exported.sym -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -o libcheck.la -rpath /Users/piers/Documents/GitHub/wallet-core/build/local/lib check.lo check_error.lo check_list.lo check_log.lo check_msg.lo check_pack.lo check_print.lo check_run.lo check_str.lo   ../lib/libcompat.la -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -D_THREAD_SAFE   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -no-undefined -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -o libcheckinternal.la  check.lo check_error.lo check_list.lo check_log.lo check_msg.lo check_pack.lo check_print.lo check_run.lo check_str.lo   ../lib/libcompat.la -lm 
+libtool: link: rm -fr  .libs/libcheckinternal.a .libs/libcheckinternal.la
+libtool: link: rm -fr  .libs/libcheck.0.dylib .libs/libcheck.a .libs/libcheck.dylib .libs/libcheck.la .libs/libcheck.lai
+libtool: link: sed 's|^|_|' < exported.sym > .libs/libcheck-symbols.expsym
+libtool: link: gcc -dynamiclib  -o .libs/libcheck.0.dylib  .libs/check.o .libs/check_error.o .libs/check_list.o .libs/check_log.o .libs/check_msg.o .libs/check_pack.o .libs/check_print.o .libs/check_run.o .libs/check_str.o   -Wl,-force_load,../lib/.libs/libcompat.a  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -lm  -g -O2   -install_name  /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libcheck.0.dylib -compatibility_version 1 -current_version 1.0 -Wl,-single_module -Wl,-exported_symbols_list,.libs/libcheck-symbols.expsym
+libtool: link: (cd .libs/libcheckinternal.lax/libcompat.a && ar x "/Users/piers/Documents/GitHub/wallet-core/build/check/staging/check-0.12.0/src/../lib/.libs/libcompat.a")
+libtool: link: ar cru .libs/libcheckinternal.a .libs/check.o .libs/check_error.o .libs/check_list.o .libs/check_log.o .libs/check_msg.o .libs/check_pack.o .libs/check_print.o .libs/check_run.o .libs/check_str.o   .libs/libcheckinternal.lax/libcompat.a/fpclassify.o .libs/libcheckinternal.lax/libcompat.a/libcompat.o .libs/libcheckinternal.lax/libcompat.a/timer_create.o .libs/libcheckinternal.lax/libcompat.a/timer_delete.o .libs/libcheckinternal.lax/libcompat.a/timer_settime.o 
+libtool: link: (cd ".libs" && rm -f "libcheck.dylib" && ln -s "libcheck.0.dylib" "libcheck.dylib")
+libtool: link: ranlib .libs/libcheckinternal.a
+libtool: link: rm -fr .libs/libcheckinternal.lax
+libtool: link: ( cd ".libs" && rm -f "libcheckinternal.la" && ln -s "../libcheckinternal.la" "libcheckinternal.la" )
+libtool: link: (cd .libs/libcheck.lax/libcompat.a && ar x "/Users/piers/Documents/GitHub/wallet-core/build/check/staging/check-0.12.0/src/../lib/.libs/libcompat.a")
+libtool: link: ar cru .libs/libcheck.a  check.o check_error.o check_list.o check_log.o check_msg.o check_pack.o check_print.o check_run.o check_str.o  .libs/libcheck.lax/libcompat.a/fpclassify.o .libs/libcheck.lax/libcompat.a/libcompat.o .libs/libcheck.lax/libcompat.a/timer_create.o .libs/libcheck.lax/libcompat.a/timer_delete.o .libs/libcheck.lax/libcompat.a/timer_settime.o 
+libtool: link: ranlib .libs/libcheck.a
+libtool: link: rm -fr .libs/libcheck.lax
+libtool: link: ( cd ".libs" && rm -f "libcheck.la" && ln -s "../libcheck.la" "libcheck.la" )
+Making all in doc
+make[2]: Nothing to be done for `all'.
+Making all in .
+Making all in checkmk
+make[2]: Nothing to be done for `all'.
+Making all in tests
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check_export-check_check_sub.o -MD -MP -MF .deps/check_check_export-check_check_sub.Tpo -c -o check_check_export-check_check_sub.o `test -f 'check_check_sub.c' || echo './'`check_check_sub.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check_export-check_check_master.o -MD -MP -MF .deps/check_check_export-check_check_master.Tpo -c -o check_check_export-check_check_master.o `test -f 'check_check_master.c' || echo './'`check_check_master.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check_export-check_check_log.o -MD -MP -MF .deps/check_check_export-check_check_log.Tpo -c -o check_check_export-check_check_log.o `test -f 'check_check_log.c' || echo './'`check_check_log.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check_export-check_check_fork.o -MD -MP -MF .deps/check_check_export-check_check_fork.Tpo -c -o check_check_export-check_check_fork.o `test -f 'check_check_fork.c' || echo './'`check_check_fork.c
+mv -f .deps/check_check_export-check_check_fork.Tpo .deps/check_check_export-check_check_fork.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check_export-check_check_tags.o -MD -MP -MF .deps/check_check_export-check_check_tags.Tpo -c -o check_check_export-check_check_tags.o `test -f 'check_check_tags.c' || echo './'`check_check_tags.c
+mv -f .deps/check_check_export-check_check_log.Tpo .deps/check_check_export-check_check_log.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check_export-check_check_export_main.o -MD -MP -MF .deps/check_check_export-check_check_export_main.Tpo -c -o check_check_export-check_check_export_main.o `test -f 'check_check_export_main.c' || echo './'`check_check_export_main.c
+mv -f .deps/check_check_export-check_check_master.Tpo .deps/check_check_export-check_check_master.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_list.o -MD -MP -MF .deps/check_check-check_list.Tpo -c -o check_check-check_list.o `test -f 'check_list.c' || echo './'`check_list.c
+mv -f .deps/check_check_export-check_check_export_main.Tpo .deps/check_check_export-check_check_export_main.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_sub.o -MD -MP -MF .deps/check_check-check_check_sub.Tpo -c -o check_check-check_check_sub.o `test -f 'check_check_sub.c' || echo './'`check_check_sub.c
+mv -f .deps/check_check-check_list.Tpo .deps/check_check-check_list.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_master.o -MD -MP -MF .deps/check_check-check_check_master.Tpo -c -o check_check-check_check_master.o `test -f 'check_check_master.c' || echo './'`check_check_master.c
+mv -f .deps/check_check_export-check_check_tags.Tpo .deps/check_check_export-check_check_tags.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_msg.o -MD -MP -MF .deps/check_check-check_check_msg.Tpo -c -o check_check-check_check_msg.o `test -f 'check_check_msg.c' || echo './'`check_check_msg.c
+mv -f .deps/check_check-check_check_msg.Tpo .deps/check_check-check_check_msg.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_log.o -MD -MP -MF .deps/check_check-check_check_log.Tpo -c -o check_check-check_check_log.o `test -f 'check_check_log.c' || echo './'`check_check_log.c
+mv -f .deps/check_check-check_check_master.Tpo .deps/check_check-check_check_master.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_log_internal.o -MD -MP -MF .deps/check_check-check_check_log_internal.Tpo -c -o check_check-check_check_log_internal.o `test -f 'check_check_log_internal.c' || echo './'`check_check_log_internal.c
+mv -f .deps/check_check-check_check_log_internal.Tpo .deps/check_check-check_check_log_internal.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_limit.o -MD -MP -MF .deps/check_check-check_check_limit.Tpo -c -o check_check-check_check_limit.o `test -f 'check_check_limit.c' || echo './'`check_check_limit.c
+mv -f .deps/check_check-check_check_log.Tpo .deps/check_check-check_check_log.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_fork.o -MD -MP -MF .deps/check_check-check_check_fork.Tpo -c -o check_check-check_check_fork.o `test -f 'check_check_fork.c' || echo './'`check_check_fork.c
+mv -f .deps/check_check-check_check_limit.Tpo .deps/check_check-check_check_limit.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_fixture.o -MD -MP -MF .deps/check_check-check_check_fixture.Tpo -c -o check_check-check_check_fixture.o `test -f 'check_check_fixture.c' || echo './'`check_check_fixture.c
+mv -f .deps/check_check-check_check_fork.Tpo .deps/check_check-check_check_fork.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_pack.o -MD -MP -MF .deps/check_check-check_check_pack.Tpo -c -o check_check-check_check_pack.o `test -f 'check_check_pack.c' || echo './'`check_check_pack.c
+mv -f .deps/check_check_export-check_check_sub.Tpo .deps/check_check_export-check_check_sub.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_exit.o -MD -MP -MF .deps/check_check-check_check_exit.Tpo -c -o check_check-check_check_exit.o `test -f 'check_check_exit.c' || echo './'`check_check_exit.c
+mv -f .deps/check_check-check_check_pack.Tpo .deps/check_check-check_check_pack.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_selective.o -MD -MP -MF .deps/check_check-check_check_selective.Tpo -c -o check_check-check_check_selective.o `test -f 'check_check_selective.c' || echo './'`check_check_selective.c
+mv -f .deps/check_check-check_check_fixture.Tpo .deps/check_check-check_check_fixture.Po
+mv -f .deps/check_check-check_check_exit.Tpo .deps/check_check-check_check_exit.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_tags.o -MD -MP -MF .deps/check_check-check_check_tags.Tpo -c -o check_check-check_check_tags.o `test -f 'check_check_tags.c' || echo './'`check_check_tags.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_check-check_check_main.o -MD -MP -MF .deps/check_check-check_check_main.Tpo -c -o check_check-check_check_main.o `test -f 'check_check_main.c' || echo './'`check_check_main.c
+mv -f .deps/check_check-check_check_main.Tpo .deps/check_check-check_check_main.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_stress.o -MD -MP -MF .deps/check_stress.Tpo -c -o check_stress.o check_stress.c
+mv -f .deps/check_check-check_check_sub.Tpo .deps/check_check-check_check_sub.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src  -D_THREAD_SAFE  -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_thread_stress-check_thread_stress.o -MD -MP -MF .deps/check_thread_stress-check_thread_stress.Tpo -c -o check_thread_stress-check_thread_stress.o `test -f 'check_thread_stress.c' || echo './'`check_thread_stress.c
+mv -f .deps/check_check-check_check_selective.Tpo .deps/check_check-check_check_selective.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_nofork.o -MD -MP -MF .deps/check_nofork.Tpo -c -o check_nofork.o check_nofork.c
+mv -f .deps/check_stress.Tpo .deps/check_stress.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_nofork_teardown.o -MD -MP -MF .deps/check_nofork_teardown.Tpo -c -o check_nofork_teardown.o check_nofork_teardown.c
+mv -f .deps/check_thread_stress-check_thread_stress.Tpo .deps/check_thread_stress-check_thread_stress.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src  -DTIMEOUT_TESTS_ENABLED=0 -DMEMORY_LEAKING_TESTS_ENABLED=0 -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_mem_leaks-check_mem_leaks.o -MD -MP -MF .deps/check_mem_leaks-check_mem_leaks.Tpo -c -o check_mem_leaks-check_mem_leaks.o `test -f 'check_mem_leaks.c' || echo './'`check_mem_leaks.c
+mv -f .deps/check_nofork.Tpo .deps/check_nofork.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src  -DTIMEOUT_TESTS_ENABLED=0 -DMEMORY_LEAKING_TESTS_ENABLED=0 -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_mem_leaks-check_check_log.o -MD -MP -MF .deps/check_mem_leaks-check_check_log.Tpo -c -o check_mem_leaks-check_check_log.o `test -f 'check_check_log.c' || echo './'`check_check_log.c
+mv -f .deps/check_nofork_teardown.Tpo .deps/check_nofork_teardown.Po
+mv -f .deps/check_mem_leaks-check_mem_leaks.Tpo .deps/check_mem_leaks-check_mem_leaks.Po
+mv -f .deps/check_check-check_check_tags.Tpo .deps/check_check-check_check_tags.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src  -DTIMEOUT_TESTS_ENABLED=0 -DMEMORY_LEAKING_TESTS_ENABLED=0 -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_mem_leaks-check_check_fork.o -MD -MP -MF .deps/check_mem_leaks-check_check_fork.Tpo -c -o check_mem_leaks-check_check_fork.o `test -f 'check_check_fork.c' || echo './'`check_check_fork.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src  -DTIMEOUT_TESTS_ENABLED=0 -DMEMORY_LEAKING_TESTS_ENABLED=0 -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_mem_leaks-check_check_exit.o -MD -MP -MF .deps/check_mem_leaks-check_check_exit.Tpo -c -o check_mem_leaks-check_check_exit.o `test -f 'check_check_exit.c' || echo './'`check_check_exit.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src  -DTIMEOUT_TESTS_ENABLED=0 -DMEMORY_LEAKING_TESTS_ENABLED=0 -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_mem_leaks-check_check_selective.o -MD -MP -MF .deps/check_mem_leaks-check_check_selective.Tpo -c -o check_mem_leaks-check_check_selective.o `test -f 'check_check_selective.c' || echo './'`check_check_selective.c
+mv -f .deps/check_mem_leaks-check_check_log.Tpo .deps/check_mem_leaks-check_check_log.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src  -DTIMEOUT_TESTS_ENABLED=0 -DMEMORY_LEAKING_TESTS_ENABLED=0 -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_mem_leaks-check_check_tags.o -MD -MP -MF .deps/check_mem_leaks-check_check_tags.Tpo -c -o check_mem_leaks-check_check_tags.o `test -f 'check_check_tags.c' || echo './'`check_check_tags.c
+mv -f .deps/check_mem_leaks-check_check_exit.Tpo .deps/check_mem_leaks-check_check_exit.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src  -DTIMEOUT_TESTS_ENABLED=0 -DMEMORY_LEAKING_TESTS_ENABLED=0 -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_mem_leaks-check_check_sub.o -MD -MP -MF .deps/check_mem_leaks-check_check_sub.Tpo -c -o check_mem_leaks-check_check_sub.o `test -f 'check_check_sub.c' || echo './'`check_check_sub.c
+mv -f .deps/check_mem_leaks-check_check_fork.Tpo .deps/check_mem_leaks-check_check_fork.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src  -DTIMEOUT_TESTS_ENABLED=0 -DMEMORY_LEAKING_TESTS_ENABLED=0 -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_mem_leaks-check_check_master.o -MD -MP -MF .deps/check_mem_leaks-check_check_master.Tpo -c -o check_mem_leaks-check_check_master.o `test -f 'check_check_master.c' || echo './'`check_check_master.c
+mv -f .deps/check_mem_leaks-check_check_selective.Tpo .deps/check_mem_leaks-check_check_selective.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT check_set_max_msg_size.o -MD -MP -MF .deps/check_set_max_msg_size.Tpo -c -o check_set_max_msg_size.o check_set_max_msg_size.c
+mv -f .deps/check_set_max_msg_size.Tpo .deps/check_set_max_msg_size.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src -I../src   -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -MT ex_output.o -MD -MP -MF .deps/ex_output.Tpo -c -o ex_output.o ex_output.c
+mv -f .deps/check_mem_leaks-check_check_master.Tpo .deps/check_mem_leaks-check_check_master.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -o check_check_export check_check_export-check_check_sub.o check_check_export-check_check_master.o check_check_export-check_check_log.o check_check_export-check_check_fork.o check_check_export-check_check_tags.o check_check_export-check_check_export_main.o ../src/libcheck.la ../lib/libcompat.la -lm 
+mv -f .deps/ex_output.Tpo .deps/ex_output.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -o check_check check_check-check_list.o check_check-check_check_sub.o check_check-check_check_master.o check_check-check_check_msg.o check_check-check_check_log.o check_check-check_check_log_internal.o check_check-check_check_limit.o check_check-check_check_fork.o check_check-check_check_fixture.o check_check-check_check_pack.o check_check-check_check_exit.o check_check-check_check_selective.o check_check-check_check_tags.o check_check-check_check_main.o ../src/libcheckinternal.la ../lib/libcompat.la -lm 
+mv -f .deps/check_mem_leaks-check_check_tags.Tpo .deps/check_mem_leaks-check_check_tags.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -o check_stress check_stress.o ../src/libcheck.la ../lib/libcompat.la -lm 
+libtool: link: gcc -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -o .libs/check_check_export check_check_export-check_check_sub.o check_check_export-check_check_master.o check_check_export-check_check_log.o check_check_export-check_check_fork.o check_check_export-check_check_tags.o check_check_export-check_check_export_main.o  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib ../src/.libs/libcheck.dylib ../lib/.libs/libcompat.a -lm
+libtool: link: gcc -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -o .libs/check_stress check_stress.o  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib ../src/.libs/libcheck.dylib ../lib/.libs/libcompat.a -lm
+libtool: link: gcc -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -o check_check check_check-check_list.o check_check-check_check_sub.o check_check-check_check_master.o check_check-check_check_msg.o check_check-check_check_log.o check_check-check_check_log_internal.o check_check-check_check_limit.o check_check-check_check_fork.o check_check-check_check_fixture.o check_check-check_check_pack.o check_check-check_check_exit.o check_check-check_check_selective.o check_check-check_check_tags.o check_check-check_check_main.o  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib ../src/.libs/libcheckinternal.a ../lib/.libs/libcompat.a -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -D_THREAD_SAFE  -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -o check_thread_stress check_thread_stress-check_thread_stress.o ../src/libcheck.la ../lib/libcompat.la  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -o check_nofork check_nofork.o ../src/libcheck.la ../lib/libcompat.la -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -o check_nofork_teardown check_nofork_teardown.o ../src/libcheck.la ../lib/libcompat.la -lm 
+libtool: link: gcc -D_THREAD_SAFE -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -o .libs/check_thread_stress check_thread_stress-check_thread_stress.o  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib ../src/.libs/libcheck.dylib ../lib/.libs/libcompat.a -lm
+libtool: link: gcc -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -o .libs/check_nofork_teardown check_nofork_teardown.o  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib ../src/.libs/libcheck.dylib ../lib/.libs/libcompat.a -lm
+libtool: link: gcc -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -o .libs/check_nofork check_nofork.o  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib ../src/.libs/libcheck.dylib ../lib/.libs/libcompat.a -lm
+mv -f .deps/check_mem_leaks-check_check_sub.Tpo .deps/check_mem_leaks-check_check_sub.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -o check_set_max_msg_size check_set_max_msg_size.o ../src/libcheck.la ../lib/libcompat.la -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -o ex_output ex_output.o ../src/libcheck.la ../lib/libcompat.la -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DTIMEOUT_TESTS_ENABLED=0 -DMEMORY_LEAKING_TESTS_ENABLED=0 -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib -o check_mem_leaks check_mem_leaks-check_mem_leaks.o check_mem_leaks-check_check_log.o check_mem_leaks-check_check_fork.o check_mem_leaks-check_check_exit.o check_mem_leaks-check_check_selective.o check_mem_leaks-check_check_tags.o check_mem_leaks-check_check_sub.o check_mem_leaks-check_check_master.o ../src/libcheck.la ../lib/libcompat.la -lm 
+libtool: link: gcc -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -o .libs/check_set_max_msg_size check_set_max_msg_size.o  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib ../src/.libs/libcheck.dylib ../lib/.libs/libcompat.a -lm
+libtool: link: gcc -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -o .libs/ex_output ex_output.o  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib ../src/.libs/libcheck.dylib ../lib/.libs/libcompat.a -lm
+libtool: link: gcc -DTIMEOUT_TESTS_ENABLED=0 -DMEMORY_LEAKING_TESTS_ENABLED=0 -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas -o .libs/check_mem_leaks check_mem_leaks-check_mem_leaks.o check_mem_leaks-check_check_log.o check_mem_leaks-check_check_fork.o check_mem_leaks-check_check_exit.o check_mem_leaks-check_check_selective.o check_mem_leaks-check_check_tags.o check_mem_leaks-check_check_sub.o check_mem_leaks-check_check_master.o  -L/Users/piers/Documents/GitHub/wallet-core/build/local/lib ../src/.libs/libcheck.dylib ../lib/.libs/libcompat.a -lm
+Making install in lib
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+Making install in src
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcheck.la '/Users/piers/Documents/GitHub/wallet-core/build/local/lib'
+libtool: install: /usr/bin/install -c .libs/libcheck.0.dylib /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libcheck.0.dylib
+libtool: install: (cd /Users/piers/Documents/GitHub/wallet-core/build/local/lib && { ln -s -f libcheck.0.dylib libcheck.dylib || { rm -f libcheck.dylib && ln -s libcheck.0.dylib libcheck.dylib; }; })
+libtool: install: /usr/bin/install -c .libs/libcheck.lai /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libcheck.la
+libtool: install: /usr/bin/install -c .libs/libcheck.a /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libcheck.a
+libtool: install: chmod 644 /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libcheck.a
+libtool: install: ranlib /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libcheck.a
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include'
+ /usr/bin/install -c -m 644 check.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include'
+Making install in doc
+make[2]: Nothing to be done for `install-exec-am'.
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/share/doc/check/example'
+ /usr/bin/install -c -m 644 example/Makefile.am example/README example/configure.ac '/Users/piers/Documents/GitHub/wallet-core/build/local/share/doc/check/example'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/share/doc/check/example/src'
+ /usr/bin/install -c -m 644 example/src/Makefile.am example/src/main.c example/src/money.c example/src/money.h example/src/money.1.h example/src/money.2.h example/src/money.1.c example/src/money.3.c example/src/money.4.c example/src/money.5.c example/src/money.6.c '/Users/piers/Documents/GitHub/wallet-core/build/local/share/doc/check/example/src'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/share/doc/check/example/tests'
+ /usr/bin/install -c -m 644 example/tests/Makefile.am example/tests/check_money.c example/tests/check_money.1.c example/tests/check_money.2.c example/tests/check_money.3.c example/tests/check_money.6.c example/tests/check_money.7.c '/Users/piers/Documents/GitHub/wallet-core/build/local/share/doc/check/example/tests'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/share/info'
+ /usr/bin/install -c -m 644 ./check.info '/Users/piers/Documents/GitHub/wallet-core/build/local/share/info'
+ install-info --info-dir='/Users/piers/Documents/GitHub/wallet-core/build/local/share/info' '/Users/piers/Documents/GitHub/wallet-core/build/local/share/info/check.info'
+Making install in .
+make[2]: Nothing to be done for `install-exec-am'.
+ ./install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/share/doc/check'
+ /usr/bin/install -c -m 644 ChangeLog NEWS README COPYING.LESSER '/Users/piers/Documents/GitHub/wallet-core/build/local/share/doc/check'
+ ./install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include'
+ /usr/bin/install -c -m 644 check_stdint.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include'
+ ./install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/share/aclocal'
+ /usr/bin/install -c -m 644 check.m4 '/Users/piers/Documents/GitHub/wallet-core/build/local/share/aclocal'
+ ./install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 check.pc '/Users/piers/Documents/GitHub/wallet-core/build/local/lib/pkgconfig'
+Making install in checkmk
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/bin'
+ /usr/bin/install -c checkmk '/Users/piers/Documents/GitHub/wallet-core/build/local/bin'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/share/man/man1'
+ /usr/bin/install -c -m 644 doc/checkmk.1 '/Users/piers/Documents/GitHub/wallet-core/build/local/share/man/man1'
+Making install in tests
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+Archive:  include.zip
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/json.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/adl_serializer.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/json_ref.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/conversions/to_chars.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/conversions/from_json.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/conversions/to_json.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/value_t.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/input/position_t.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/input/parser.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/input/json_sax.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/input/binary_reader.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/input/input_adapters.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/input/lexer.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/macro_scope.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/output/output_adapters.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/output/serializer.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/output/binary_writer.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/meta/is_sax.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/meta/type_traits.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/meta/cpp_future.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/meta/detected.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/meta/void_t.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/json_pointer.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/exceptions.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/macro_unscope.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/iterators/iter_impl.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/iterators/json_reverse_iterator.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/iterators/iteration_proxy.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/iterators/iterator_traits.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/iterators/internal_iterator.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/detail/iterators/primitive_iterator.hpp  
+  inflating: /Users/piers/Documents/GitHub/wallet-core/build/local/include/nlohmann/json_fwd.hpp  
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking build system type... x86_64-apple-darwin18.6.0
+checking host system type... x86_64-apple-darwin18.6.0
+checking target system type... x86_64-apple-darwin18.6.0
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '501' is supported by ustar format... yes
+checking whether GID '20' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking how to run the C++ preprocessor... g++ -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... (cached) gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for gcc... gcc
+checking whether we are using the GNU Objective C compiler... yes
+checking whether gcc accepts -g... yes
+checking dependency style of gcc... gcc3
+checking C++ compiler flags...... use default: -O2  -g -std=c++11 -DNDEBUG
+checking whether __SUNPRO_CC is declared... no
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 196608
+checking how to convert x86_64-apple-darwin18.6.0 file names to x86_64-apple-darwin18.6.0 format... func_convert_file_noop
+checking how to convert x86_64-apple-darwin18.6.0 file names to toolchain format... func_convert_file_noop
+checking for /Library/Developer/CommandLineTools/usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... no
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for lipo... lipo
+checking for otool... otool
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking for -force_load linker flag... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... yes
+checking for gcc option to produce PIC... -fno-common -DPIC
+checking if gcc PIC flag -fno-common -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin18.6.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fno-common -DPIC
+checking if g++ PIC flag -fno-common -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin18.6.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether the linker supports version scripts... no
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for working memcmp... yes
+checking for working strtod... yes
+checking for ftruncate... yes
+checking for memset... yes
+checking for mkdir... yes
+checking for strchr... yes
+checking for strerror... yes
+checking for strtol... yes
+checking zlib version... ok (1.2.0.4 or later)
+checking for library containing zlibVersion... -lz
+checking whether -latomic is needed... no
+checking whether gcc is Clang... yes
+checking whether Clang needs flag to prevent "argument unused" warning when linking with -pthread... no
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking the location of hash_map... <unordered_map>
+checking whether g++ supports C++11 features by default... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating benchmarks/Makefile
+config.status: creating conformance/Makefile
+config.status: creating protobuf.pc
+config.status: creating protobuf-lite.pc
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+=== configuring in third_party/googletest (/Users/piers/Documents/GitHub/wallet-core/build/protobuf/staging/protobuf-3.7.0/third_party/googletest)
+configure: running /bin/sh ./configure --disable-option-checking '--prefix=/Users/piers/Documents/GitHub/wallet-core/build/local'  'LDFLAGS=-L/Users/piers/Documents/GitHub/wallet-core/build/local/lib' 'LT_SYS_LIBRARY_PATH=/Users/piers/Documents/GitHub/wallet-core/build/local/lib' --cache-file=/dev/null --srcdir=.
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... build-aux/install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+=== configuring in googletest (/Users/piers/Documents/GitHub/wallet-core/build/protobuf/staging/protobuf-3.7.0/third_party/googletest/googletest)
+configure: running /bin/sh ./configure --disable-option-checking '--prefix=/Users/piers/Documents/GitHub/wallet-core/build/local'  'LDFLAGS=-L/Users/piers/Documents/GitHub/wallet-core/build/local/lib' 'LT_SYS_LIBRARY_PATH=/Users/piers/Documents/GitHub/wallet-core/build/local/lib' --cache-file=/dev/null --srcdir=.
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... build-aux/install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking build system type... x86_64-apple-darwin18.6.0
+checking host system type... x86_64-apple-darwin18.6.0
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 196608
+checking how to convert x86_64-apple-darwin18.6.0 file names to x86_64-apple-darwin18.6.0 format... func_convert_file_noop
+checking how to convert x86_64-apple-darwin18.6.0 file names to toolchain format... func_convert_file_noop
+checking for /Library/Developer/CommandLineTools/usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... no
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for lipo... lipo
+checking for otool... otool
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking for -force_load linker flag... yes
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... yes
+checking for gcc option to produce PIC... -fno-common -DPIC
+checking if gcc PIC flag -fno-common -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin18.6.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fno-common -DPIC
+checking if g++ PIC flag -fno-common -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin18.6.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking for python... /usr/bin/python
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... -D_THREAD_SAFE
+checking whether to check for GCC pthread/shared inconsistencies... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating scripts/gtest-config
+config.status: creating build-aux/config.h
+config.status: build-aux/config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+=== configuring in googlemock (/Users/piers/Documents/GitHub/wallet-core/build/protobuf/staging/protobuf-3.7.0/third_party/googletest/googlemock)
+configure: running /bin/sh ./configure --disable-option-checking '--prefix=/Users/piers/Documents/GitHub/wallet-core/build/local'  'LDFLAGS=-L/Users/piers/Documents/GitHub/wallet-core/build/local/lib' 'LT_SYS_LIBRARY_PATH=/Users/piers/Documents/GitHub/wallet-core/build/local/lib' --cache-file=/dev/null --srcdir=.
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... build-aux/install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking build system type... x86_64-apple-darwin18.6.0
+checking host system type... x86_64-apple-darwin18.6.0
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 196608
+checking how to convert x86_64-apple-darwin18.6.0 file names to x86_64-apple-darwin18.6.0 format... func_convert_file_noop
+checking how to convert x86_64-apple-darwin18.6.0 file names to toolchain format... func_convert_file_noop
+checking for /Library/Developer/CommandLineTools/usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... no
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for lipo... lipo
+checking for otool... otool
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking for -force_load linker flag... yes
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... yes
+checking for gcc option to produce PIC... -fno-common -DPIC
+checking if gcc PIC flag -fno-common -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin18.6.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fno-common -DPIC
+checking if g++ PIC flag -fno-common -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin18.6.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking for python... /usr/bin/python
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... -D_THREAD_SAFE
+checking whether to check for GCC pthread/shared inconsistencies... no
+checking for gtest-config... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating scripts/gmock-config
+config.status: creating build-aux/config.h
+config.status: build-aux/config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+/Library/Developer/CommandLineTools/usr/bin/make  all-recursive
+Making all in .
+Making all in src
+make[2]: Nothing to be done for `all'.
+Making install in .
+make[2]: Nothing to be done for `install-exec-am'.
+ ./install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 protobuf.pc protobuf-lite.pc '/Users/piers/Documents/GitHub/wallet-core/build/local/lib/pkgconfig'
+Making install in src
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libprotobuf-lite.la libprotobuf.la libprotoc.la '/Users/piers/Documents/GitHub/wallet-core/build/local/lib'
+libtool: install: /usr/bin/install -c .libs/libprotobuf-lite.18.dylib /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotobuf-lite.18.dylib
+libtool: install: (cd /Users/piers/Documents/GitHub/wallet-core/build/local/lib && { ln -s -f libprotobuf-lite.18.dylib libprotobuf-lite.dylib || { rm -f libprotobuf-lite.dylib && ln -s libprotobuf-lite.18.dylib libprotobuf-lite.dylib; }; })
+libtool: install: /usr/bin/install -c .libs/libprotobuf-lite.lai /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotobuf-lite.la
+libtool: install: /usr/bin/install -c .libs/libprotobuf.18.dylib /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotobuf.18.dylib
+libtool: install: (cd /Users/piers/Documents/GitHub/wallet-core/build/local/lib && { ln -s -f libprotobuf.18.dylib libprotobuf.dylib || { rm -f libprotobuf.dylib && ln -s libprotobuf.18.dylib libprotobuf.dylib; }; })
+libtool: install: /usr/bin/install -c .libs/libprotobuf.lai /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotobuf.la
+libtool: install: /usr/bin/install -c .libs/libprotoc.18.dylib /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotoc.18.dylib
+libtool: install: (cd /Users/piers/Documents/GitHub/wallet-core/build/local/lib && { ln -s -f libprotoc.18.dylib libprotoc.dylib || { rm -f libprotoc.dylib && ln -s libprotoc.18.dylib libprotoc.dylib; }; })
+libtool: install: /usr/bin/install -c .libs/libprotoc.lai /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotoc.la
+libtool: install: /usr/bin/install -c .libs/libprotobuf-lite.a /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotobuf-lite.a
+libtool: install: chmod 644 /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotobuf-lite.a
+libtool: install: ranlib /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotobuf-lite.a
+libtool: install: /usr/bin/install -c .libs/libprotobuf.a /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotobuf.a
+libtool: install: chmod 644 /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotobuf.a
+libtool: install: ranlib /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotobuf.a
+libtool: install: /usr/bin/install -c .libs/libprotoc.a /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotoc.a
+libtool: install: chmod 644 /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotoc.a
+libtool: install: ranlib /Users/piers/Documents/GitHub/wallet-core/build/local/lib/libprotoc.a
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c protoc '/Users/piers/Documents/GitHub/wallet-core/build/local/bin'
+libtool: install: /usr/bin/install -c .libs/protoc /Users/piers/Documents/GitHub/wallet-core/build/local/bin/protoc
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf'
+ /usr/bin/install -c -m 644  google/protobuf/descriptor.proto google/protobuf/any.proto google/protobuf/api.proto google/protobuf/duration.proto google/protobuf/empty.proto google/protobuf/field_mask.proto google/protobuf/source_context.proto google/protobuf/struct.proto google/protobuf/timestamp.proto google/protobuf/type.proto google/protobuf/wrappers.proto '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler'
+ /usr/bin/install -c -m 644  google/protobuf/compiler/plugin.proto '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf'
+ /usr/bin/install -c -m 644  google/protobuf/any.pb.h google/protobuf/api.pb.h google/protobuf/any.h google/protobuf/arena.h google/protobuf/arena_impl.h google/protobuf/arenastring.h google/protobuf/descriptor_database.h google/protobuf/descriptor.h google/protobuf/descriptor.pb.h google/protobuf/duration.pb.h google/protobuf/dynamic_message.h google/protobuf/empty.pb.h google/protobuf/extension_set.h google/protobuf/extension_set_inl.h google/protobuf/field_mask.pb.h google/protobuf/generated_enum_reflection.h google/protobuf/generated_enum_util.h google/protobuf/generated_message_reflection.h google/protobuf/generated_message_table_driven.h google/protobuf/generated_message_util.h google/protobuf/has_bits.h google/protobuf/implicit_weak_message.h google/protobuf/inlined_string_field.h google/protobuf/map_entry.h google/protobuf/map_entry_lite.h google/protobuf/map_field.h google/protobuf/map_field_inl.h google/protobuf/map_field_lite.h google/protobuf/map.h google/protobuf/map_type_handler.h google/protobuf/message.h google/protobuf/message_lite.h google/protobuf/metadata.h google/protobuf/metadata_lite.h google/protobuf/parse_context.h google/protobuf/port.h google/protobuf/port_def.inc google/protobuf/port_undef.inc google/protobuf/reflection.h google/protobuf/reflection_ops.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/python'
+ /usr/bin/install -c -m 644  google/protobuf/compiler/python/python_generator.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/python'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/php'
+ /usr/bin/install -c -m 644  google/protobuf/compiler/php/php_generator.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/php'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/cpp'
+ /usr/bin/install -c -m 644  google/protobuf/compiler/cpp/cpp_generator.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/cpp'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/objectivec'
+ /usr/bin/install -c -m 644  google/protobuf/compiler/objectivec/objectivec_generator.h google/protobuf/compiler/objectivec/objectivec_helpers.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/objectivec'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/stubs'
+ /usr/bin/install -c -m 644  google/protobuf/stubs/callback.h google/protobuf/stubs/bytestream.h google/protobuf/stubs/casts.h google/protobuf/stubs/common.h google/protobuf/stubs/fastmem.h google/protobuf/stubs/hash.h google/protobuf/stubs/logging.h google/protobuf/stubs/macros.h google/protobuf/stubs/mutex.h google/protobuf/stubs/once.h google/protobuf/stubs/platform_macros.h google/protobuf/stubs/port.h google/protobuf/stubs/status.h google/protobuf/stubs/stl_util.h google/protobuf/stubs/stringpiece.h google/protobuf/stubs/strutil.h google/protobuf/stubs/template_util.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/stubs'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/io'
+ /usr/bin/install -c -m 644  google/protobuf/io/coded_stream.h google/protobuf/io/gzip_stream.h google/protobuf/io/printer.h google/protobuf/io/strtod.h google/protobuf/io/tokenizer.h google/protobuf/io/zero_copy_stream.h google/protobuf/io/zero_copy_stream_impl.h google/protobuf/io/zero_copy_stream_impl_lite.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/io'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf'
+ /usr/bin/install -c -m 644  google/protobuf/repeated_field.h google/protobuf/service.h google/protobuf/source_context.pb.h google/protobuf/struct.pb.h google/protobuf/text_format.h google/protobuf/timestamp.pb.h google/protobuf/type.pb.h google/protobuf/unknown_field_set.h google/protobuf/wire_format.h google/protobuf/wire_format_lite.h google/protobuf/wire_format_lite_inl.h google/protobuf/wrappers.pb.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/java'
+ /usr/bin/install -c -m 644  google/protobuf/compiler/java/java_generator.h google/protobuf/compiler/java/java_names.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/java'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler'
+ /usr/bin/install -c -m 644  google/protobuf/compiler/code_generator.h google/protobuf/compiler/command_line_interface.h google/protobuf/compiler/importer.h google/protobuf/compiler/parser.h google/protobuf/compiler/plugin.h google/protobuf/compiler/plugin.pb.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/util'
+ /usr/bin/install -c -m 644  google/protobuf/util/type_resolver.h google/protobuf/util/delimited_message_util.h google/protobuf/util/field_comparator.h google/protobuf/util/field_mask_util.h google/protobuf/util/json_util.h google/protobuf/util/time_util.h google/protobuf/util/type_resolver_util.h google/protobuf/util/message_differencer.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/util'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/ruby'
+ /usr/bin/install -c -m 644  google/protobuf/compiler/ruby/ruby_generator.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/ruby'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/csharp'
+ /usr/bin/install -c -m 644  google/protobuf/compiler/csharp/csharp_generator.h google/protobuf/compiler/csharp/csharp_names.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/csharp'
+ .././install-sh -c -d '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/js'
+ /usr/bin/install -c -m 644  google/protobuf/compiler/js/js_generator.h google/protobuf/compiler/js/well_known_types_embed.h '/Users/piers/Documents/GitHub/wallet-core/build/local/include/google/protobuf/compiler/js'
+libprotoc 3.7.0

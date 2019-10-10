@@ -17,6 +17,7 @@ This list is generated from [./coins.json](../coins.json)
 | 61      | Ethereum Classic | ETC    | <img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/classic/info/logo.png" width="32" />      | <https://ethereumclassic.org> |
 | 74      | ICON             | ICX    | <img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/icon/info/logo.png" width="32" />         | <https://icon.foundation>     |
 | 111     | ARK              | ARK    | <img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ark/info/logo.png" width="32" />          | <http://ark.io>               |
+| 118     | Loom             | LOOM   | <img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/loom/info/logo.png" width="32" />         | <https://loomx.io>            |
 | 118     | Cosmos           | ATOM   | <img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/cosmos/info/logo.png" width="32" />       | <https://cosmos.network>      |
 | 133     | Zcash            | ZEC    | <img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/zcash/info/logo.png" width="32" />        | <https://z.cash>              |
 | 135     | Steem            | STEEM  | <img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/steem/info/logo.png" width="32" />        | <http://steem.io>             |
